@@ -11,7 +11,8 @@ module Shoryuken
         dispatch: [],
         quiet: [],
         shutdown: []
-      }
+      },
+      using_eb: true
     }.freeze
 
     @@groups                          = {}
